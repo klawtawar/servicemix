@@ -1,0 +1,67 @@
+package com.ksl.jms.sample.file;
+
+import java.io.*;
+
+public class serialzedClass implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1706238449540592713L;
+	private int width;
+	private int height;
+	
+	
+	
+public void setwidth (int w)
+	{
+		width = w;
+	
+	}
+
+public void setheight (int h)
+{
+	height = h;
+
+}
+	
+	
+	public static void main(String[] args) {
+		
+		String charone = "alpha";
+		String chartwo = "beta";
+		String charthree = "gamma";
+		
+		serialzedClass sc = new serialzedClass();
+		
+		sc.setwidth(1);
+		sc.setheight(90);
+		
+		// TODO Auto-generated method stub
+		try {
+		
+		FileOutputStream  fs = new FileOutputStream("first.ser");
+
+		
+		ObjectOutputStream os = new ObjectOutputStream(fs);
+		
+		
+	//	os.writeObject(charone);
+	//	os.writeObject(chartwo);
+	//	os.writeObject(charthree);
+	
+		os.writeObject(sc);
+		
+		
+		os.close();
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+
+}

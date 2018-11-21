@@ -1,0 +1,10 @@
+package com.ksl.jms.sample.file;
+
+interface display {
+	public void display();
+}
+
+public class interfacesamp implements display 
+{
+
+}

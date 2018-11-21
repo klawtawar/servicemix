@@ -1,0 +1,7 @@
+package com.ksl.jms.sample.file;
+
+public interface Interfacesampy {
+
+
+	public void display();
+}

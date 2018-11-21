@@ -1,0 +1,11 @@
+package com.ksl.jms.sample.file;
+
+public class testinterfacee implements displayInterface
+{
+	String name;
+	public void display() {
+		
+	
+	System.out.println("The name of the person name is :" + this.name);
+}
+}

@@ -1,0 +1,24 @@
+package com.ksl.jms.sample.file;
+
+interface displayInterface {
+	public void display();
+}
+
+public class testinterface implements displayInterface
+{
+	String name;
+	public void display() {
+		
+	
+	System.out.println("The name of the person name is :" + this.name);
+}
+}
+public class interfacesamp
+{
+	public static void main (String args[])
+	{
+		testinterface tin = new testinterface();
+		tin.name = "tina";
+		tin.display();
+	}
+}

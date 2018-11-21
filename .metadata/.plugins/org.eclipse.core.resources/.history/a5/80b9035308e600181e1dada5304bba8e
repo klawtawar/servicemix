@@ -1,0 +1,47 @@
+package com.ksl.jms.sample.file;
+
+import java.io.*;
+
+public class serialzedClass implements Serializable {
+	
+	
+	
+public void testmethod ()
+	{
+		
+	
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		String charone = "alpha";
+		String chartwo = "beta";
+		String charthree = "gamma";
+		
+		
+		// TODO Auto-generated method stub
+		try {
+		
+		FileOutputStream  fs = new FileOutputStream("first.ser");
+
+		
+		ObjectOutputStream os = new ObjectOutputStream(fs);
+		
+		
+		os.writeObject(charone);
+		os.writeObject(chartwo);
+		os.writeObject(charthree);
+		
+		os.close();
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+
+}

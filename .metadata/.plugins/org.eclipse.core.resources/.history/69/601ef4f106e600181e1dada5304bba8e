@@ -1,0 +1,16 @@
+package com.ksl.jms.sample.file;
+
+import java.io.*;
+
+public class serialzedClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		FileOutputStream  fs = new FileOutputStream();
+		
+		
+	}
+
+}
