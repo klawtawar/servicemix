@@ -1,6 +1,1 @@
 INDEX VERSION 1.4+/Users/kunallawtawar/eclipse-workspace/servicemix/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-360922059.index
-1950299225.index
-1124703114.index
-1170566517.index
-602787267.index
