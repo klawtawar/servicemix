@@ -62,6 +62,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/kunallawtawar/eclipse-workspace/servicemix/samplewar/src/samplewarpack/producer.java"/>
 			<item value="/Users/kunallawtawar/eclipse-workspace/servicemix/jms-sample"/>
 		</list>
 		<list key="projectNameTemplate">
